@@ -1,1 +1,0 @@
-{"uuid":"fbc07753-6d32-44d4-91e1-9170876ac1de","name":"com.orangehrm.test.Login.setUp","children":["5d339e1d-3a6a-48f8-abc6-5a850c0d0d9b"],"description":"","befores":[{"name":"setUp","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1733672266830,"stop":1733672271893}],"afters":[],"start":1733672266829,"stop":1733672271894}
