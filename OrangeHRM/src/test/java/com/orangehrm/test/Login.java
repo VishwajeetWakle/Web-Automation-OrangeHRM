@@ -26,7 +26,7 @@ public class Login {
 	}
 	
 	@Test
-	public void loginWithCorrectCreds() {
+	public void loginWithValidCreds() {
 		loginPage.setUsername("Admin");
 		loginPage.setPassword("admin123");
 		loginPage.submit();
