@@ -23,6 +23,9 @@ public class LoginPage {
 	@FindBy(xpath = "//button[@type='submit']")
 	WebElement submitBTN;
 	
+	@FindBy(xpath = "//p[text()='Invalid credentials']")
+	WebElement invalidCredsErrorMsg;
+	
 	public void setUsername(String name) {
 		username.sendKeys(name);
 	}
@@ -33,5 +36,9 @@ public class LoginPage {
 	
 	public void submit() {
 		submitBTN.click();
+	}
+	
+	public boolean isInvalidCredErrorMsgDisplayed() {
+		return invalidCredsErrorMsg.isDisplayed();
 	}
 }

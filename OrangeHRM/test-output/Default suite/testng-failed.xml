@@ -6,7 +6,8 @@
       <class name="com.orangehrm.test.Login">
         <methods>
           <include name="setUp"/>
-          <include name="login"/>
+          <include name="loginWithInvalidUsername"/>
+          <include name="tearDown"/>
         </methods>
       </class> <!-- com.orangehrm.test.Login -->
     </classes>
